@@ -578,3 +578,9 @@ h6::before {
   color: #fff;
   background-color: var(--theme-color);
 }
+
+/* 翻页按钮居中 */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
