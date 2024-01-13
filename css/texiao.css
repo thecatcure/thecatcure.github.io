@@ -35,14 +35,14 @@
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget.card-info {
     background: linear-gradient(
-      -45deg,
-      #e8d8b9,
-      #eccec5,
-      #a3e9eb,
-      #bdbdf0,
-      #eec1ea
+      -10deg,
+      #e2e2e2,
+      #f6f5f5,
+      #e4eded,
+      #e7e7f0,
+      #f9e5f8
     );
-    box-shadow: 0 0 5px rgb(66, 68, 68);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
     position: relative;
     background-size: 400% 400%;
     -webkit-animation: Gradient 10s ease infinite;
@@ -128,7 +128,7 @@
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
   background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(rgb(247, 247, 247));
   border-radius: 18px;
   border: var(--border-style);
 }
@@ -657,7 +657,7 @@ h6::before {
   /* 字体文件地址(相对或者绝对路径都可以) */
   src: url(/font/今年也要加油鸭.ttf);
   /* 定义加粗样式(加粗多少) */
-  font-weight: 3px;
+  font-weight: 30px;
   /* 定义字体样式(斜体/非斜体) */
   font-style: normal;
   /* 定义显示样式 */
